@@ -13,7 +13,7 @@ const MY_ID = "dc43f5c9";
 const MY_KEY = "41004f36187693a52846881269bea7f0";
 
 const myProductSearch = (e) => {
-  console.log(e.target.value);
+  //console.log(e.target.value);
   setMySearch(e.target.value); //запускается функция, которая отражает в инпуте того, что пишет пользователь
 }
 
@@ -47,7 +47,7 @@ useEffect(() => {
       }
     })
     .then((result) => {
-       console.log(result);
+       //console.log(result);
        setMyAnalysis(result);
     })
    
