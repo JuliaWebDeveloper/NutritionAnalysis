@@ -5,7 +5,7 @@ import Table from './Table';
 function App() {
   const[mySearch, setMySearch] = useState(); //состояние поиска для input, изначально пустое
   const[myАnalysis, setMyAnalysis] = useState(); // состояние: анализ продукта, изначально пусто
-  const[wordSubmitted, setWordSubmitted]=useState("1 apple")//состояние: значение выбранного слова-изначально пустое
+  const[wordSubmitted, setWordSubmitted]=useState("1 apple")//состояние: значение выбранного слова
   const [isLoaded, setIsLoaded] = useState(false);// состояние загрузки
 
 //доступ к api
